@@ -19,6 +19,7 @@ MariaDB/MySQL에 연결할 때 입력한 암호가 올바른 암호와 비교되
 
 ```bash
 for i in `seq 1 1000`; do mysql -uroot -pwrong -h your-ip -P3306 ; done
+```
 
 결과
 ![](sdf.png)
